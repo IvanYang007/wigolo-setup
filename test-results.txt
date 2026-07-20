@@ -1,0 +1,37 @@
+# wigolo Test Results - Mon Jul 20 15:14:16 EDT 2026
+
+## 1. Health Check
+health|PASS|one-shot mode (status: "status":"down")
+## 2. Built-in Verify
+verify-search|PASS|search capability verified
+verify-fetch|PASS|fetch capability verified
+verify-extract|PASS|extract capability verified
+verify-synthesis|SKIP|no LLM API key (optional)
+## 3. Search
+search|PASS|returned results (multi-engine)
+## 4. Fetch
+fetch|PASS|fetched page: 
+## 5. Extract
+extract|PASS|extracted structured data
+## 6. Crawl
+crawl|PASS|crawled 1 page(s)
+## 7. Cache
+cache-stats|PASS| cached URL(s)
+## 8. Cache Query
+cache-query|PASS|cache query returned results
+## 9. Find Similar
+find-similar|PASS|similarity search returned results
+## 10. Research
+research|PASS|research synthesis completed
+## 11. Agent
+agent|SKIP|no LLM API key configured (optional)
+
+========================================
+  Test Summary
+========================================
+  Total:  14
+  Passed: 12
+  Failed: 0
+  Skipped: 2
+
+  ✅ ALL REQUIRED TESTS PASSED

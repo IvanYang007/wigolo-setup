@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "wigolo": {
+      "command": "npx",
+      "args": ["-y", "wigolo", "mcp"],
+      "lifecycle": "lazy",
+      "idleTimeout": 10,
+      "requestTimeoutMs": 180000,
+      "debug": false,
+      "env": {
+        "WIGOLO_LLM_PROVIDER": "ollama",
+        "WIGOLO_LLM_BASE_URL": "https://api.deepseek.com/v1",
+        "WIGOLO_LLM_MODEL": "deepseek-chat"
+      }
+    }
+  },
+  "imports": [
+    "claude-code"
+  ]
+}
