@@ -1,0 +1,27 @@
+# Web Search Routing Test Results - Mon Jul 20 16:22:04 EDT 2026
+
+## Scenario 1: Quick Fact Lookup
+PASS|Scenario 1: quick fact → web_search ✓
+## Scenario 2: Broad Multi-Source Comparison
+PASS|Scenario 2: broad comparison → wigolo_search ✓
+## Scenario 3: Multi-Step Research Synthesis
+PASS|Scenario 3: research synthesis → wigolo_research ✓
+## Scenario 4: Repeat Query (Cache Hit)
+PASS|Scenario 4: repeat query → wigolo_cache ✓
+## Scenario 5: Reference Documentation Lookup
+PASS|Scenario 5: reference docs → ctx_fetch_and_index ✓
+
+## Structural Checks
+PASS|Structural: fallback paths documented ✓
+PASS|Structural: anti-patterns documented ✓
+PASS|Structural: cache-before-network pattern ✓
+PASS|Structural: tool comparison table ✓
+
+========================================
+  Routing Test Summary
+========================================
+  Total:   9
+  Passed:  9
+  Failed:  0
+
+  ✅ ALL ROUTING TESTS PASSED — skill is valid
